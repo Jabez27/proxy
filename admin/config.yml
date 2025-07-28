@@ -52,7 +52,7 @@ collections:
     slug: "{{slug}}"
     path: "{{slug}}/index"
     extension: "html"
-    format: "html"
+    format: "frontmatter"
     media_folder: "static/img/blog/{{slug}}"
     public_folder: "/static/img/blog/{{slug}}"
     fields:
@@ -69,7 +69,7 @@ collections:
     slug: "{{slug}}"
     path: "{{slug}}/index"
     extension: "html"
-    format: "html"
+    format: "frontmatter"
     media_folder: "static/img/certifications/{{slug}}"
     public_folder: "/static/img/certifications/{{slug}}"
     fields:
