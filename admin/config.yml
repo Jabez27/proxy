@@ -6,9 +6,6 @@ backend:
 media_folder: "static/uploads"  # Where uploaded files go in the repo
 public_folder: "/uploads"       # How they are accessed in the frontend
 
-media_library:
-  name: uploadcare
-
 collections:
   - name: "posts"
     label: "Blog Posts"
